@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	background-image: url("../../../IMG/Background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+div.tittle
+{
+	text-align: center;
+	font-size: 25pt;
+}
+
+button.formate
+{
+	border: none;
+	font-size: 14pt;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 400px;
+	background-color: red;
+	color: white;
+}
+
+button.formate:hover
+{
+	background-color: darkred;
+	cursor: pointer;
+	transform: scale(0.9);
+}

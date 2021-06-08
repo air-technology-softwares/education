@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	background-image: url("joinBG.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+div.tittle
+{
+	text-align: center;
+	font-size: 25pt;
+	margin-top: -50px;
+}
+
+iframe.none
+{
+	display: none;
+}
+
+iframe.call
+{
+	height: 500px;
+	width: 600px;
+	margin-top: -35px;
+}
+
+button.formate
+{
+	border: none;
+	font-size: 14pt;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 200px;
+	background-color: blue;
+	color: white;
+}
+
+button.formate:hover
+{
+	background-color: darkblue;
+	cursor: pointer;
+	transform: scale(0.9);
+}
+
+button.formate1
+{
+	border: none;
+	font-size: 14pt;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 200px;
+	background-color: red;
+	color: white;
+}
+
+button.formate1:hover
+{
+	background-color: darkred;
+	cursor: pointer;
+	transform: scale(0.9);
+}
+
+div.help
+{
+	margin-left: 1000px;
+	margin-top:  -500px;
+}
+
+iframe.help
+{
+	width: 300px;
+	height: 130px;
+	border: none;
+}
+
+div.submit
+{
+	margin-left: 1000px;
+	margin-top: 50px;
+}
+
+iframe.submit
+{
+	height: 180px;
+	width: 300px;
+	border: none;
+}
+
+div.status
+{
+	margin-left: 700px;
+	margin-top: -550px;
+}
+
+div.main
+{
+	display: none;
+}
+
+div.other
+{
+	display: none;
+}
+
+
+
